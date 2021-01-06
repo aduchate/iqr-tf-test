@@ -1,5 +1,5 @@
 import { html, LitElement, property } from 'lit-element';
-import {EditorState} from 'prosemirror-state'
+import { EditorState } from 'prosemirror-state'
 import { EditorView } from 'prosemirror-view'
 import { Schema } from 'prosemirror-model'
 import { history, redo, undo } from "prosemirror-history";
