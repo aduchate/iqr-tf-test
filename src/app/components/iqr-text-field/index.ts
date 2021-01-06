@@ -9,6 +9,7 @@ import {schema} from './schema'
 import MarkdownIt from 'markdown-it'
 import {MarkdownParser} from 'prosemirror-markdown'
 import {iqrTextFieldStyle} from "./style";
+// @ts-ignore
 import { caretFixPlugin } from './caret-fix-plugin'
 
 class IqrTextField extends LitElement {
@@ -44,7 +45,7 @@ class IqrTextField extends LitElement {
 					doc: this.markdownParser.parse(this.value),
 					schema: this.schema,
 					plugins: [
-						caretFixPlugin(), /* Uncomment to fix the bug under Firefox */
+						//caretFixPlugin(), /* Uncomment to fix the bug under Firefox */
 						history(),
 						keymap({"Mod-z": undo, "Mod-Shift-z": redo}),
 						keymap({

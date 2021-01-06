@@ -15,6 +15,7 @@ class MyApp extends LitElement {
 
 	render() {
         return html`
+					<div>Change focus from one textfield to the next using the mouse to trigger bug, uncomment plugin caret-fix-plugin in iqr-text-field/index.ts to fix.</div>
 <iqr-text-field style="width: 320px" value="*Hello* **world**" class="f1"></iqr-text-field>
 <iqr-text-field style="width: 320px" value="*Bye* **world**" class="f2"></iqr-text-field>
 `;
