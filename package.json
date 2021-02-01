@@ -2,7 +2,7 @@
   "name": "iqr-text-field",
   "version": "1.0.0",
   "description": "",
-  "main": "dist/main.js",
+  "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --env.mode development",
     "dist": "webpack --env.mode production",
